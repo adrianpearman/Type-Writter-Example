@@ -8,14 +8,6 @@ body{
   overflow: hidden;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  padding: 0 3rem;
-}
-
 h1, h2{
   font-weight: 200;
   margin: 0.4rem;
@@ -30,6 +22,20 @@ h2{
   color: #aaa;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+/* Cursor */
+.txt-type > .txt{
+  border-right: 0.2rem solid #FFFF00
+}
+
+/* Media Queries */
 @media(min-width: 1200px){
   h1{
     font-size: 5rem;
